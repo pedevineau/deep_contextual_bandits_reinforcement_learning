@@ -1,0 +1,17 @@
+Algorithm&Final regret&Last100regrets \\
+BootRMSArtificialData&32.12 +/- 2.85&25.0 \\ 
+DropoutArtificialData&32.12 +/- 3.39&25.0 \\
+ParamNoiseArtificialData&33.07 +/- 3.73&25.0 \\
+NeuralGreedyArtificialData&33.26 +/- 3.94&26.0 \\
+BootRMS&33.30 +/- 3.95&26.0 \\
+Dropout&33.44 +/- 4.86&26.0 \\
+linThompson&33.78 +/- 4.36&25.0 \\
+linUCB&33.80 +/- 7.46&27.0 \\
+NeuralGreedy&33.89 +/- 5.91&27.0 \\
+ParamNoise&34.43 +/- 4.21&27.0 \\
+NeuralLinThomson&38.25 +/- 2.91&26.0 \\
+NeuralLinUCBArtificialData&38.31 +/- 2.31&29.0 \\
+NeuralLinUCB&39.67 +/- 2.58&29.0 \\
+LinEpsilon&39.73 +/- 4.00&30.0 \\
+NeuralLinThomsonArtificialData&58.96 +/- 3.62&46.0 \\
+Uniform Sampling&100.00 +/- 4.31&100.0 \\

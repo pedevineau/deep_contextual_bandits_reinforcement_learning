@@ -1,0 +1,17 @@
+Algorithm& Final regret &Last100regrets \\
+linUCB& 4.82 +/- 0.43 &0.0 \\
+linThompson& 8.88 +/- 0.60 &0.0 \\
+LinEpsilon& 9.15 +/- 1.26 &5.0 \\
+ NG batchsize=512 layers=1x50  RMSprop & 13.32 +/- 2.91 &4.0 \\
+ NG batchsize=64 layers=1x50  RMSprop & 16.41 +/- 3.15 &7.0 \\
+ NG batchsize=512 layers=2x50  RMSprop & 17.43 +/- 3.81 &8.0 \\
+ NG batchsize=64 layers=2x50  RMSprop & 19.59 +/- 3.30 &9.0 \\
+ NG batchsize=8 layers=1x50  RMSprop & 23.17 +/- 4.13 &13.0 \\
+ NG batchsize=8 layers=2x50  RMSprop & 23.70 +/- 4.28 &14.0 \\
+ NG batchsize=8 layers=1x50_SGD & 55.01 +/- 8.11 &48.0 \\
+ NG batchsize=512 layers=1x50_SGD & 55.25 +/- 7.52 &48.0 \\
+ NG batchsize=64 layers=1x50_SGD & 56.81 +/- 7.94 &50.0 \\
+ NG batchsize=512 layers=2x50_SGD & 57.28 +/- 7.00 &50.0 \\
+ NG batchsize=64 layers=2x50_SGD & 58.73 +/- 8.09 &51.0 \\
+ NG batchsize=8 layers=2x50_SGD & 58.90 +/- 7.11 &52.0 \\
+ Uniform Sampling & 100.00 +/- 3.17 &100.0 \\

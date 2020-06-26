@@ -1,0 +1,17 @@
+Algorithm&"Final regret"&Last100regrets \\ 
+linUCB&"31.79 +/- 1.28"&12.0 \\ 
+LinEpsilon&"35.40 +/- 1.74"&23.0 \\ 
+"NG batchsize=512 layers=1x50  RMSprop"&"38.86 +/- 1.80"&26.0 \\ 
+"NG batchsize=512 layers=2x50  RMSprop"&"42.03 +/- 2.04"&29.0 \\ 
+"NG batchsize=64 layers=1x50  RMSprop"&"43.28 +/- 2.47"&32.0 \\ 
+linThompson&"44.03 +/- 1.35"&21.0 \\ 
+"NG batchsize=64 layers=2x50  RMSprop"&"44.40 +/- 2.07"&32.0 \\ 
+"NG batchsize=8 layers=2x50  RMSprop"&"54.00 +/- 3.47"&42.0 \\ 
+"NG batchsize=8 layers=1x50  RMSprop"&"55.86 +/- 3.88"&46.0 \\ 
+"NG batchsize=64 layers=2x50 SGD"&"80.99 +/- 5.14"&76.0 \\ 
+"NG batchsize=8 layers=2x50 SGD"&"81.18 +/- 6.81"&76.0 \\ 
+"NG batchsize=512 layers=2x50 SGD"&"81.19 +/- 4.86"&75.0 \\ 
+"NG batchsize=64 layers=1x50 SGD"&"81.86 +/- 5.90"&76.0 \\ 
+"NG batchsize=512 layers=1x50 SGD"&"82.74 +/- 4.61"&77.0 \\ 
+"NG batchsize=8 layers=1x50 SGD"&"83.02 +/- 5.64"&78.0 \\ 
+"Uniform Sampling"&"100.00 +/- 1.71"&100.0 \\ 
