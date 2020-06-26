@@ -8,7 +8,7 @@ In this repository, I benchmark different [Deep Reinforcement Learning (Deep RL)
 
 [Contextual Bandits](https://en.wikipedia.org/wiki/Multi-armed_bandit#Constrained_contextual_bandit) is a RL problem without any state where a given context/features vector is given.
 In Deep Contextual Bandits, a neural network estimates the reward of an action, given a context.
-At each RL-iteration, the action with the highest reward -as estimated by the neural network- is chosen.
+At each RL iteration, the action with the highest reward -as estimated by the neural network- is chosen.
 Once the action has been performed, the actual reward is received by he agent.
 The deep learning model is subsequently retrained, based on this real (ground truth) reward.
 
